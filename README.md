@@ -1,1 +1,1 @@
-insired by https://www.lokkeestudios.com/
+inspired by https://www.lokkeestudios.com/
