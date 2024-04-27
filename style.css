@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    justify-content: center;
+}
+
+button {
+    padding: 3rem;
+    width: 20rem;
+    background-color: transparent;
+    border: 1px solid rgb(153, 202, 255);
+    color: rgb(117, 184, 255);
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, rgb(117, 184, 255) 50%, rgb(90, 169, 255) 70%);
+    background-size: 230%;
+    transition: all .5s ease-in-out;
+}
+
+button:hover {
+    margin: 0rem 2rem;
+    color: white;
+    width: 25rem;
+    background-position: 100%;
+    letter-spacing: .2rem;
+}
